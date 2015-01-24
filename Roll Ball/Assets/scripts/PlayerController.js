@@ -18,3 +18,9 @@ function FixedUpdate(){
 	
 	rigidbody.AddForce(movement * speed * Time.deltaTime);
 }
+
+function OnTriggerEnter (other : Collider) {
+	if (other.gameObject.tag == "PickUp") {
+		other.gameObject.SetActive(false);
+	}
+}
