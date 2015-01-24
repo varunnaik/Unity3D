@@ -9,7 +9,7 @@ function Start () {
 }
 
 function Update () {
-
+	
 }
 
 function FixedUpdate(){
@@ -24,5 +24,6 @@ function FixedUpdate(){
 function OnTriggerEnter (other : Collider) {
 	if (other.gameObject.tag == "PickUp") {
 		other.gameObject.SetActive(false);
+		count += 1;
 	}
 }

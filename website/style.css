@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,800);
+
+body {
+  background: #4B5C66;
+  color: white;
+  font-family: "Open Sans";
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family: "Open Sans";
+  font-weight: 800;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.count {
+  opacity: 0.5;
+  font-size: 3em;
+  font-weight: 800;
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.project-container {
+  position: relative;
+  padding: 60px;
+  border: 5px solid rgba(0,0,0,0);
+  display: block;
+}
+
+
+.project {
+  left: 20px;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  position: absolute;
+  top: 28px;
+  left: 80px;
+}
+
+.project-container:hover {
+  border: 5px solid rgba(0,0,0,0.2);
+  background: #5C6C66;
+}
+
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: white;
+  outline: none;
+}
+
+#unityPlayer embed {
+  margin: 0 auto;
+  border: 5px solid rgba(0,0,0,0.2);
+  outline: none;
+}
+
+.center {
+  text-align: center;
+}

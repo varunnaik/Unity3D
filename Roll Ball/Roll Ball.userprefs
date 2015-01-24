@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\CameraController.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\PlayerController.js">
     <Files>
-      <File FileName="Assets\scripts\PlayerController.js" Line="19" Column="54" />
-      <File FileName="Assets\scripts\CameraController.js" Line="4" Column="1" />
+      <File FileName="Assets\scripts\PlayerController.js" Line="27" Column="14" />
+      <File FileName="Assets\scripts\CameraController.js" Line="3" Column="1" />
+      <File FileName="Assets\scripts\Rotator.js" Line="4" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
