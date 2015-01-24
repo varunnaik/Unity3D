@@ -2,8 +2,10 @@
 
 var speed : float = 1.0;
 
-function Start () {
+private var count = 0;
 
+function Start () {
+	count = 0;
 }
 
 function Update () {
