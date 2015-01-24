@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\PlayerController.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\CameraController.js">
     <Files>
       <File FileName="Assets\scripts\PlayerController.js" Line="19" Column="54" />
+      <File FileName="Assets\scripts\CameraController.js" Line="4" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
