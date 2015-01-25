@@ -46,8 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\DestroyByBoundary.js" />
+     <Compile Include="Assets\Scripts\DestroyByContact.js" />
      <Compile Include="Assets\Scripts\Mover.js" />
      <Compile Include="Assets\Scripts\PlayerController.js" />
+     <Compile Include="Assets\Scripts\RandomRotator.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
