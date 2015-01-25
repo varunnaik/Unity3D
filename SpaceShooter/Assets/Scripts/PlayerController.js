@@ -11,7 +11,13 @@ class Boundary
 }
 
 var boundary : Boundary;
+
 var tilt : float;
+
+var shot : GameObject;
+var shotSpawn : Transform;
+var fireRate : float;
+private var nextFire : float;
 
 function FixedUpdate () {
 	var moveHorizontal = Input.GetAxis('Horizontal');
@@ -27,4 +33,12 @@ function FixedUpdate () {
 	);
 	rigidbody.rotation = Quaternion.Euler(0, 0, rigidbody.velocity.x * -tilt);
 
+}
+
+function Update () {
+	if (Input.GetButton("Fire1") && Time.time > nextFire) {
+        nextFire = Time.time + fireRate;
+        Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+        audio.Play ();
+    }
 }
