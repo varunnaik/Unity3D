@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\DestroyByBoundary.js" />
      <Compile Include="Assets\Scripts\DestroyByContact.js" />
      <Compile Include="Assets\Scripts\DestroyByTime.js" />
+     <Compile Include="Assets\Scripts\EnemyController.js" />
      <Compile Include="Assets\Scripts\GameController.js" />
      <Compile Include="Assets\Scripts\Mover.js" />
      <Compile Include="Assets\Scripts\PlayerController.js" />
