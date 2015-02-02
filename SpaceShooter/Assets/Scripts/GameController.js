@@ -8,7 +8,7 @@ var startWait : float;
 private  var score : int;
 
 function Start () {
-    SpawnAsteroidWaves ();
+    //SpawnAsteroidWaves ();
     SpawnEnemyWaves ();
     updateScore();
 }
