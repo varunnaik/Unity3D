@@ -1,4 +1,4 @@
-﻿var hazard : GameObject;
+﻿var hazards : GameObject[];
 var enemy : GameObject;
 var spawnValues : Vector3;
 var spawnWait : float;
@@ -8,7 +8,7 @@ var startWait : float;
 private  var score : int;
 
 function Start () {
-    //SpawnAsteroidWaves ();
+    SpawnAsteroidWaves ();
     SpawnEnemyWaves ();
     updateScore();
 }
@@ -19,12 +19,12 @@ function SpawnAsteroidWaves () {
     var waveWait : float;
     while (true)
     {
-    	hazardCount = Random.RandomRange(1,4);
-    	waveWait = Random.RandomRange(3.0,15.0);
+    	hazardCount = Random.RandomRange(1,5);
+    	waveWait = Random.RandomRange(3.0,5.0);
         for ( var i : int= 0; i < hazardCount; i++) {
             var spawnPosition : Vector3= new Vector3 (Random.Range (-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
             var spawnRotation : Quaternion= Quaternion.identity;
-            Instantiate (hazard, spawnPosition, spawnRotation);
+            Instantiate (hazards[Random.RandomRange(0,3)], spawnPosition, spawnRotation);
             yield WaitForSeconds (spawnWait);
         }
         yield WaitForSeconds (waveWait);
